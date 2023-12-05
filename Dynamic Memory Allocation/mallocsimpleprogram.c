@@ -18,8 +18,9 @@ int main()
     {
         printf("enter array elements ");
         for(i=0;i<n;i++)
-        {
+        {   
             scanf("%d",(ptr+i));
+            //or ptr[i]=i+1; here ptr will contain the address of value 1 2 3 4 5 depending upon the n.
         }
 
         printf("\nthe array elements are \n");
